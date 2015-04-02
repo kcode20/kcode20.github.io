@@ -1,63 +1,14 @@
 body{
-	font-family:arial;
-	color: red; 
 	margin: 0; 
-}
-header{
-	background: #422C06; 
-	color: beige;
-	text-align: center; 
-	font-family: impact; 
-	background: url(../images/background.jpg);
-	background-attachment: fixed; 
-	background-size: cover; 
+	background: url(../images/dark_wood.png);
+	color: white; 
+	font-family: 'Amatic SC', cursive;
 }
 
-a { 
-	color: #F5EFED;
-}
 
-#about{
-	background:gold;
-}
-#about h2{
-	padding: 20px; 
-	margin: 0; 
-}
-#about p{
-	margin: 0; 
-	padding-bottom: 20px; 
-}
-
-img{
-	border: solid 3px black;
-}
-
-header img{
-	border:10px black dotted;
-	padding: 20px;
-}
-
-h1{
-	font-size: 60px;
-	color: #3751A3;
-	margin: 20px 0;
-}
-.links {
-	margin: 0; 
-	background: red; 
-}
-
-.links h2{
-	color: #000000;
-}
-.padded{
-	padding: 50px 100px 50px 100px; 
-	/* You can also do it padding: 50px 100px; */ 
-}
 .contact{
 	text-align: center;
-	background: url(../images/dark_embroidery.png);
+	padding: 10px; 
 }
 .contact h2{
 	color: #ffffff; 
@@ -72,29 +23,68 @@ h1{
 .contact img:hover{
 	opacity: .8; 
 	border-radius: 40%; 
-}
+} 
 
-.websites{
-	padding: 0; 
+.head{
+	background: #595958;
+	opacity: .70;  
+	margin: 0px;
 }
-
-.websites li {
-	list-style: none;
+header img{ 
+	width: 100px;
+	padding: 20px;
+	vertical-align: middle; 
+	opacity: 1.0;
+}
+header h1{ 
+	vertical-align: middle;
+	padding: 10px 40px;
+	font-size: 50px; 
 	display: inline-block;
-	margin-bottom: 40px; 
+	font-family: 'Amatic SC', cursive;
 }
-.websites a{
-	background: blue;
-	color: white;
-	text-decoration: none; 
-	padding: 10px 20px;
-	border-radius: 5px; 
-	font-size: 30px; 
+header ul{
+	vertical-align: middle;
+	float: right;
+	list-style: none; 
+	padding: 20px; 
+	display: inline-block;
 }
-
-.websites a:hover{
-	background: green; 
+header ul li {
+	display: inline-block;
+	padding: 10px; 
+	font-size: 25px; 
+	border: solid #ffffff;
+	border-radius: 10px;
+	margin: 10px; 
+	float: right; 
 }
-h1, h2{
-	font-family: 'Architects Daughter', cursive;
+header ul li:hover{
+	background: #ffffff;
+	color: black; 
+	cursor: pointer;
+}
+#resume{
+	padding: 10px 100px; 
+	border: solid #ffffff;
+	margin-right: auto; 
+	margin-left: auto; 
+	margin-top: 50px; 
+	margin-bottom: 50px; 
+	border-radius: 10px;
+	width: 500px; 
+}
+.location{
+	display: inline-block;
+	color: red; 
+	float: right;
+	margin: 0px; 
+}
+.experience{
+	display: inline-block;
+}
+#name{
+	background: #595958;
+	opacity: .70;  
+	text-align: center;
 }
