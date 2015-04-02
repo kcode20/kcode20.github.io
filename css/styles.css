@@ -32,16 +32,23 @@ body{
 }
 header img{ 
 	width: 100px;
-	padding: 20px;
 	vertical-align: middle; 
 	opacity: 1.0;
 }
+header a{
+	text-decoration: none;
+	color: white; 
+}
 header h1{ 
 	vertical-align: middle;
-	padding: 10px 40px;
-	font-size: 50px; 
+	font-size: 60px; 
 	display: inline-block;
-	font-family: 'Amatic SC', cursive;
+	border-bottom: 2px solid red;
+	text-shadow:
+	-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
 header ul{
 	vertical-align: middle;
@@ -60,10 +67,11 @@ header ul li {
 	float: right; 
 }
 header ul li:hover{
-	background: #ffffff;
+	background: red;
 	color: black; 
 	cursor: pointer;
 }
+
 #resume{
 	padding: 10px 100px; 
 	border: solid #ffffff;
@@ -74,17 +82,27 @@ header ul li:hover{
 	border-radius: 10px;
 	width: 500px; 
 }
+#resume h2{
+	font-size: 32px;
+	text-decoration: underline;
+}
 .location{
 	display: inline-block;
 	color: red; 
-	float: right;
-	margin: 0px; 
+	padding:0px; 
+	font-size: 25px;
+	vertical-align: middle;
 }
 .experience{
 	display: inline-block;
+	font-size: 25px; 
 }
 #name{
 	background: #595958;
 	opacity: .70;  
 	text-align: center;
+}
+#home{
+	cursor: pointer;
+	background: red;
 }
