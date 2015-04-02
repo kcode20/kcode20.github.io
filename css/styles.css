@@ -4,32 +4,42 @@ body{
 	color: white; 
 	font-family: 'Amatic SC', cursive;
 }
-
+a{
+	color: red; 
+}
+.head{
+	background: #595958;
+	opacity: .70;  
+	margin: 0px;
+}
 
 .contact{
 	text-align: center;
 	padding: 10px; 
+	margin-top:50px;
+	margin-bottom: 50px;
+	margin-right: auto; 
+	margin-left: auto;
+	border: solid red;
+	border-radius: 10px;
+	width: 700px;
 }
-.contact h2{
-	color: #ffffff; 
-}
+
 .contact img{
-	border: none; 
-	width: 100px; 
+	background: #000000;
+	border: black solid; 
+	width: 250px; 
 	height: auto; 
 	margin: 10px; 
 	border-radius: 50%; 
 }
 .contact img:hover{
 	opacity: .8; 
-	border-radius: 40%; 
+	background: red; 
+	border: solid red;
+	border-radius: 50%;
 } 
 
-.head{
-	background: #595958;
-	opacity: .70;  
-	margin: 0px;
-}
 header img{ 
 	width: 100px;
 	vertical-align: middle; 
@@ -38,6 +48,9 @@ header img{
 header a{
 	text-decoration: none;
 	color: white; 
+}
+header a:hover{
+	color: black; 
 }
 header h1{ 
 	vertical-align: middle;
@@ -89,7 +102,7 @@ header ul li:hover{
 .location{
 	display: inline-block;
 	color: red; 
-	padding:0px; 
+	padding-bottom: 10px; 
 	font-size: 25px;
 	vertical-align: middle;
 }
@@ -105,4 +118,43 @@ header ul li:hover{
 #home{
 	cursor: pointer;
 	background: red;
+}
+#home a{
+	color: white; 
+}
+#mgwu{
+	width: 700px; 
+}
+.pic{
+	padding: 10px;
+	border: red solid; 
+	border-radius: 10px; 
+	margin: 10px;
+	display: inline-block;
+}
+.text{
+	display: inline-block;
+	font-size: 30px;
+}
+#alexis{
+	width:300px;
+}
+#images{
+	text-align: center;
+	width: 1200px;
+	margin-top: 50px; 
+	margin-bottom: 50px;
+	border: solid white; 
+	border-radius: 10px;
+	margin-right: auto; 
+	margin-left: auto; 
+}
+#play{
+	width: 200px;
+	float: right;
+}
+#yes{
+	text-decoration: underline;
+	font-size: 40px; 
+	text-align: center;
 }
