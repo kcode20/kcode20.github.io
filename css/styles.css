@@ -139,6 +139,9 @@ header ul li:hover{
 #alexis{
 	width:300px;
 }
+#swe1{
+	width:450px;
+}
 #images{
 	text-align: center;
 	width: 1200px;
@@ -157,4 +160,12 @@ header ul li:hover{
 	text-decoration: underline;
 	font-size: 40px; 
 	text-align: center;
+}
+#git{
+	opacity: .80;
+}
+figcaption{
+	background: red;
+	opacity: .70;
+	color: white;   
 }
