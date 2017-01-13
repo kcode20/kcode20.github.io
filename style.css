@@ -327,6 +327,12 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
+  a.btn.btn-circle.page-scroll{
+    display: none;
+  }
+  #about{
+    height:auto;
+  }
 }
 @media (min-width: 768px) {
   .col-sm-4 {
